@@ -1,0 +1,47 @@
+# General
+.DS_Store
+Thumbs.db
+
+# Python (Flask)
+venv/
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+instance/
+
+# Pip dependency files (if you're using pipenv or poetry)
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Logs
+*.log
+logs/
+
+# Database (SQLite example, adjust if using PostgreSQL/MySQL)
+*.sqlite3
+*.db
+
+# React (Node.js)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build files
+build/
+dist/
+*.cache
+*.webpack
+*.eslintcache
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.iml
+
+# OS-specific files
+*.swp
+*.swo
